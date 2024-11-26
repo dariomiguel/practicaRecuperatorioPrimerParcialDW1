@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    border: solid 0,125rem black;
+}
+
+.contenedorCards{
+    display: flex;
+    flex-direction: row;
+    border: solid 0,125rem black;
+    
+}
