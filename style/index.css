@@ -5,14 +5,32 @@
 }
 
 main{
+    margin: 1rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
-    border: solid 0,125rem black;
+    border: solid 0.125rem black;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.titulo{
+    border-bottom: solid black 1px;
+    display: block;
+    width:100%;
 }
 
 .contenedorCards{
-    display: flex;
-    flex-direction: row;
-    border: solid 0,125rem black;
-    
+    margin: 1rem;
+    width:75%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        border: solid 0.125rem black;
+    gap:1rem;
+}
+
+img{
+    width:100%;
+    height: auto;
 }
